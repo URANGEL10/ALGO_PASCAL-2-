@@ -1,0 +1,31 @@
+Algorithme impot 
+
+Variables 
+ genre :chaine 
+age :entier 
+
+Début 
+
+ Ecrire (" veuillez indiquez votre genre  et votre age ")
+   Lire (genre)
+   lire (age)
+
+ REPETER  
+  Ecrire (" veuillez indiquez votre genre  et votre age ")
+   Lire (genre)
+   lire (age)
+ Jusqu à genre ← homme OU genre ← femme ET age › 0 
+ Finrepeter 
+
+  si genre ← homme  ET age › 18 alors 
+    ecrire (" VOUS PAYEZ L IMPOT ")
+ Sinon 
+   si genre ← femme ET 35‹age ‹18 ALORS 
+     ecrire (" VOUS PAYEZ L IMPOT ")
+   SINON 
+     ecrire (" VOUS NE PAYEZ PAS L IMPOT ")
+FINSI
+
+
+
+Fin
